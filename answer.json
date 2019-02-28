@@ -1,0 +1,23 @@
+{
+  "update_id": 988706619,
+  "message": {
+    "message_id": 929,
+    "from": {
+      "id": 296954806,
+      "is_bot": false,
+      "first_name": "P",
+      "last_name": "Simonenko",
+      "username": "rabarbrablad",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 296954806,
+      "first_name": "P",
+      "last_name": "Simonenko",
+      "username": "rabarbrablad",
+      "type": "private"
+    },
+    "date": 1551329644,
+    "text": "ujh"
+  }
+}

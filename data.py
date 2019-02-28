@@ -10,7 +10,8 @@
 relations = {
 	@rabarbrablad: {
 		conn: [],
+		mut_conn: [],
 		symp: [],
-		
+		vis_symp: []
 	}
 }

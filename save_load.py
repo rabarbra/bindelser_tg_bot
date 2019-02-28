@@ -7,8 +7,9 @@ def save(key, obj):
 	
 def load(key):
 	db = shelve.open('data')
-	return db[key]
+	obj = db[key]
 	db.close()
+	return(obj)
 
 if __name__ == '__main__':
 	Matr = load('test')

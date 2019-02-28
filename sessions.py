@@ -2,13 +2,16 @@
 import save_load
 
 #	sessions = {
-#				12312: {'username': '@rabarbrablad', 
-#						 'keys': ['test', 'koto'],
+#				'ids': {
+#					12312: {'username': '@rabarbrablad', 
+#							 'keys': ['test', 'koto'],
 #						 'active_key': 'test'},
-#				45346: {'username': '@AgathaZei', 
-#						 'keys': ['test', 'koto', 'poly'],
-#						 'active_key': 'koto'}
-#				}
+#					45346: {'username': '@AgathaZei', 
+#							 'keys': ['test', 'koto', 'poly'],
+#							 'active_key': 'koto'}
+#				},
+#				'keys': ['test', 'koto']
+#	}
 
 def load_sessions():
 	sessions = save_load.load('34r4ce')
@@ -17,11 +20,16 @@ def load_sessions():
 def save_sessions(sessions):
 	save_load.save('34r4ce', sessions)
 	
-def return_keys(sessions, id):
-	return(sessions
+def check_key(sessions, id, key):
 	
-def check_id(id, username, sessions, key):
-	if id in keys(sessions) and username == sessions[id][username]
+	return(sessions)
+	
+def check_id(sessions, id, username):
+	if id in keys(sessions['ids']):
+		if username == sessions['ids'][id][username]:
+			return(True)
+		else:
+			
 	
 def add_person():
 	pass
