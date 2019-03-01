@@ -52,8 +52,11 @@ def handle(message, relations):
 						pass
 					else:
 						add_at(params)
+						params = set(params)
+						params.difference_update(relations[username]['vis_symp'])
 						relations[username]['symp'].update(set(params))
-					
+						for symp in params:
+							
 					
 				elif option == '/conn':
 					Matr = save_load.load('test')
