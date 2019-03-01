@@ -9,9 +9,9 @@
 
 relations = {
 	@rabarbrablad: {
-		conn: [],
-		mut_conn: [],
-		symp: [],
-		vis_symp: []
+		conn: set(),
+		mut_conn: set(),
+		symp: set(),
+		vis_symp: set()
 	}
 }

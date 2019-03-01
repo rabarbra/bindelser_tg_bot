@@ -1,7 +1,7 @@
 {
-  "update_id": 988706619,
+  "update_id": 988706644,
   "message": {
-    "message_id": 929,
+    "message_id": 1000,
     "from": {
       "id": 296954806,
       "is_bot": false,
@@ -17,7 +17,26 @@
       "username": "rabarbrablad",
       "type": "private"
     },
-    "date": 1551329644,
-    "text": "ujh"
+    "date": 1551425344,
+    "photo": [
+      {
+        "file_id": "AgADAgADraoxG8C4yUvxvxsgq1D9C3JTXw8ABD8gXcB6nMTLv0MCAAEC",
+        "file_size": 828,
+        "width": 90,
+        "height": 67
+      },
+      {
+        "file_id": "AgADAgADraoxG8C4yUvxvxsgq1D9C3JTXw8ABLK7T_5iHBMOvkMCAAEC",
+        "file_size": 11250,
+        "width": 320,
+        "height": 240
+      },
+      {
+        "file_id": "AgADAgADraoxG8C4yUvxvxsgq1D9C3JTXw8ABFmBu2lAy0Q8wEMCAAEC",
+        "file_size": 31753,
+        "width": 640,
+        "height": 480
+      }
+    ]
   }
 }
