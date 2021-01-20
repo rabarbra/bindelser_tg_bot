@@ -11,7 +11,7 @@ import networkx as nx
 relations = {}
 graph = nx.Graph()
 
-TOKEN = "697195009:AAFewSfW90k_Guz18SlFFiC-9oZwygrks7s"
+TOKEN = ""
 URL = "https://api.telegram.org/bot" + TOKEN + "/"
 
 app = Flask(__name__)
