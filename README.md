@@ -5,8 +5,8 @@ TODOs
 - [x] remove unused code
 - [x] requirements.txt
 - [x] pytest emaple
-- [ ] github actions: linters
-- [ ] pytest to actions
+- [x] github actions: linters
+- [x] pytest to actions
 - [ ] readme: project description
 - [ ] readme: local setup instructions
 - [ ] more unittests
