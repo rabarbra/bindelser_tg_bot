@@ -18,7 +18,7 @@ def handle(message, relations):
 		return(None)
 
 	if "text" not in keys(message):
-				bot.send_message(chat_id, 'Я понимаю только текстовые сообщения.')
+		bot.send_message(chat_id, 'Я понимаю только текстовые сообщения.')
 			
 			else:
 				
