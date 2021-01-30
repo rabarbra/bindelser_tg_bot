@@ -1,8 +1,8 @@
 import networkx as nx
-from sessions import save_sessions
-import save_load
 
-sessions = {}
+import save_load
+from sessions import save_sessions, sessions
+
 relations = {}
 g = nx.Graph()
 print("Введите ключ сессии:")

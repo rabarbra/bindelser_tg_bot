@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import save_load
 
 sessions = {
     'ids': {
@@ -7,3 +8,7 @@ sessions = {
     },
     'keys': ['test', 'koto']
 }
+
+
+def save_sessions(payload: dict):
+    save_load.save('34r4ce', payload)

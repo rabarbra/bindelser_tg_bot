@@ -11,7 +11,7 @@ def load(key):
     db = shelve.open('data')
     obj = db[key]
     db.close()
-    return (obj)
+    return obj
 
 
 if __name__ == '__main__':

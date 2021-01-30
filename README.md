@@ -2,7 +2,8 @@ TODO %project_name%
 ---
 
 TODOs
-- [ ] requirements.txt
+- [x] remove unused code
+- [x] requirements.txt
 - [ ] move app files to separate folder
 - [ ] move all data filter to separate folder (data.dir, graph.png, etc)
 - [ ] fix codestyle

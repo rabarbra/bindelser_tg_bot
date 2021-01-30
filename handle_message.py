@@ -4,22 +4,22 @@ from flask_app import bot
 
 class Graph:
     def paint(self, *args):
-        pass
+        raise NotImplemented()
 
     def paint_symp(self, *args):
-        pass
+        raise NotImplemented()
 
 
 graph_painting = Graph()
 
 
-def add_at(params):
+def add_at(params: dict):
     for l in range(len(params)):
         if params[l][0] != '@':
             params[l] = '@' + params[l]
 
 
-def handle(message, relations):
+def handle(message: dict, relations: dict):  # todo message and relations args replace by dataclasses
     chat_id = message['chat']['id']
     username = '@' + message['from']['username']
 
