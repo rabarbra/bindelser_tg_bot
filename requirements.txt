@@ -1,0 +1,6 @@
+flask
+networkx
+requests
+pytest
+pytest-mock
+requests-mock
